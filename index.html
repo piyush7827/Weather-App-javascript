@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="condition">
+            <img id="icon" alt="weather condition" src="https://openweathermap.org/img/wn/10d@4x.png" />
+            <br />
+            <div class="description">XXXX XXXX</div>
+        </div>
+        <div class="temprature"><span>XX</span> °C</div>
+        <div class="place">XXXXXXX</div>
+        <div class="other">
+            <div class="humidity">
+                <img width="48" src="./assets/humidity.svg" alt="Humidity" />
+                <div>
+                    <span id="humidValue">XX</span>%
+                    <br />
+                    Humidity
+                </div>
+            </div>
+            <div class="windspeed">
+                <img width="48" src="./assets/wind.svg" alt="Wind speed" />
+                <div>
+                    <span id="windSpeed">XX</span> m/s
+                    <br />
+                    Wind speed
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
